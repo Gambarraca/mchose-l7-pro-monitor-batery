@@ -40,7 +40,7 @@ The executable is written to `dist/`.
 
 ## Protocol reference and trademarks
 
-The application code (tray interface, polling loop, battery icon, and Windows startup) was written separately for this project. Its MCHOSE L7 Pro HID protocol implementation is based on publicly documented details in [Mouse Tray Charge](https://github.com/Fan4Metal/mouse_tray); the protocol was not independently reverse-engineered here. This project is an independent implementation and is not affiliated with or endorsed by MCHOSE or the reference project. MCHOSE and L7 are trademarks of their respective owners.
+The tray interface, polling loop, battery icon, and Windows startup code were written specifically for this project; this is not a copy or port of the Mouse Tray Charge application. To read the L7 Pro, this app uses the public HID protocol details documented in [Mouse Tray Charge](https://github.com/Fan4Metal/mouse_tray), including the device identifiers and battery-report format. The protocol itself was not independently discovered or reverse-engineered for this project. This project is not affiliated with or endorsed by MCHOSE or the reference project's author. MCHOSE and L7 are trademarks of their respective owners.
 
 ## License
 
