@@ -1,8 +1,6 @@
 # MCHOSE L7 PRO monitor batery
 
-Small Windows system tray app for the MCHOSE L7 Pro mouse. The battery icon
-fills and changes color as the charge level drops. Hover over the icon or open
-its menu to see the exact percentage.
+Small Windows system tray app for the MCHOSE L7 Pro mouse. The battery icon fills and changes color as the charge level drops. Hover over the icon or open its menu to see the exact percentage.
 
 ## Features
 
@@ -14,15 +12,11 @@ its menu to see the exact percentage.
 
 Bluetooth mode is not supported by this version.
 
-## Use the Windows app
+## Download for Windows
 
-Download and run `MCHOSE L7 PRO monitor batery.exe`. No Python installation is
-needed. On its first run, the app adds itself to the current Windows user's
-startup list. Right-click the tray icon to see the percentage, refresh, change
-the startup option, or exit.
+Download [MCHOSE.L7.PRO.monitor.batery.exe](https://github.com/Gambarraca/mchose-l7-pro-monitor-batery/releases/latest/download/MCHOSE.L7.PRO.monitor.batery.exe) from the latest release. No Python installation is needed. On its first run, the app adds itself to the current Windows user's startup list. Right-click the tray icon to see the percentage, refresh, change the startup option, or exit.
 
-If the icon is hidden, open the hidden-icons menu by the Windows clock and drag
-the battery icon into the visible tray area.
+If the icon is hidden, open the hidden-icons menu by the Windows clock and drag the battery icon into the visible tray area.
 
 ## Run from source
 
@@ -33,9 +27,7 @@ python -m pip install -r requirements.txt
 python l7_battery_tray.py
 ```
 
-The tray icon appears near the clock. Move the mouse to wake it for an initial
-reading. If no reading appears, use 2.4 GHz mode with the receiver connected,
-or connect the mouse with its USB cable.
+The tray icon appears near the clock. Move the mouse to wake it for an initial reading. If no reading appears, use 2.4 GHz mode with the receiver connected, or connect the mouse with its USB cable.
 
 ## Build the executable
 
@@ -48,11 +40,7 @@ The executable is written to `dist/`.
 
 ## Protocol reference and trademarks
 
-The L7 Pro HID report format was implemented from publicly documented protocol
-details in [Mouse Tray Charge](https://github.com/Fan4Metal/mouse_tray), which
-lists MCHOSE L7 Pro support. This app is an independent project and is not
-affiliated with or endorsed by MCHOSE or the reference project. MCHOSE and L7
-are trademarks of their respective owners.
+The L7 Pro HID report format was implemented from publicly documented protocol details in [Mouse Tray Charge](https://github.com/Fan4Metal/mouse_tray), which lists MCHOSE L7 Pro support. This app is an independent project and is not affiliated with or endorsed by MCHOSE or the reference project. MCHOSE and L7 are trademarks of their respective owners.
 
 ## License
 
